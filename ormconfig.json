@@ -1,9 +1,9 @@
 {
     "type": "mysql",
-    "host": "127.0.0.1",
+    "host": "34.123.205.253",
     "port": 3306,
-    "username": "root",
-    "password": "",
+    "username": "admin-pet",
+    "password": "Ymi201369",
     "database": "database",
     "migrations": [
         "./src/database/migrations/*.ts"
