@@ -5,7 +5,7 @@
     "license": "MIT",
     "scripts": {
         "dev": "ts-node-dev --transpile-only --ignore-watch node-modules src/server.ts",
-        "start": "ts-node-dev --transpile-only --ignore-watch node-modules src/server.ts",
+        "start": "ts-node src/server.ts",
         "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
     },
     "dependencies": {
@@ -25,6 +25,7 @@
         "mysql": "^2.18.1",
         "read-excel-file": "^4.1.0",
         "sequelize": "^6.3.5",
+        "ts-node": "^9.1.1",
         "typeorm": "^0.2.29",
         "xlsx": "^0.16.9",
         "yup": "^0.32.8"
@@ -34,6 +35,6 @@
         "@types/express": "^4.17.9",
         "@types/md5": "^2.2.1",
         "ts-node-dev": "^1.0.0",
-        "typescript": "^4.1.2"
+        "typescript": "^4.1.3"
     }
 }
