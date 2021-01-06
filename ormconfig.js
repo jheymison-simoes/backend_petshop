@@ -1,10 +1,6 @@
 module.exports = {
     "type": "mysql",
-    "host": "mysqlserver.ceaketwwpzcm.sa-east-1.rds.amazonaws.com",
-    "port": 3306,
-    "username": "admin",
-    "password": "serverpro20212021",
-    "database": "petdatabase",
+    "url": "mysql://admin:serverpro20212021@mysqlserver.ceaketwwpzcm.sa-east-1.rds.amazonaws.com:3306/petdatabase",
     "migrations": [
         "./dist/database/migrations/*.ts"
     ],
