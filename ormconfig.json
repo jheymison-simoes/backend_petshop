@@ -6,10 +6,10 @@
     "password": "serverpro20212021",
     "database": "petdatabase",
     "migrations": [
-        "./src/database/migrations/*.ts"
+        "./dist/database/migrations/*.ts"
     ],
     "entities": [
-        "./src/models/*.ts"
+        "./dist/models/*.ts"
     ],
     "cli": {
         "migrationsDir": "./src/database/migrations"
