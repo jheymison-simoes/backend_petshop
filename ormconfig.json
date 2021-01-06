@@ -1,10 +1,10 @@
 {
     "type": "mysql",
-    "host": "34.123.205.253",
+    "host": "mysqlserver.ceaketwwpzcm.sa-east-1.rds.amazonaws.com",
     "port": 3306,
-    "username": "admin-pet",
-    "password": "Ymi201369",
-    "database": "database",
+    "username": "admin",
+    "password": "serverpro20212021",
+    "database": "petdatabase",
     "migrations": [
         "./src/database/migrations/*.ts"
     ],
