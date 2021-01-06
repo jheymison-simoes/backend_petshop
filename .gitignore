@@ -2,7 +2,7 @@ node_modules
 
 .env
 
-package-lock.json
-
 uploads/*
 !uploads/.gitkeep
+
+./package-lock.json
