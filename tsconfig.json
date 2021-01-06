@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
 
-    "include": ["src/*.ts"],
-    "exclude": ["node_modules"],
+
 
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
