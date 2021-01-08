@@ -1,13 +1,9 @@
 module.exports = {
-    "type": "mysql",
-    "url": "mysql://admin:serverpro20212021@mysqlserver.ceaketwwpzcm.sa-east-1.rds.amazonaws.com:3306/petdatabase",
-    "migrations": [
-        "./dist/database/migrations/*.ts"
-    ],
-    "entities": [
-        "./dist/models/*.ts"
-    ],
-    "cli": {
-        "migrationsDir": "./src/database/migrations"
+    type: "mysql",
+    url: process.env.DATA_BASE_URL,
+    migrations: [process.env.TYPEORM_MIGRATIONS],
+    entities: [process.env.TYPEORM_ENTITIES],
+    cli: {
+        migrationsDir: process.env.TYPEORM_MIGRATIONS_DIR
     }
 }

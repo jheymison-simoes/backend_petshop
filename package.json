@@ -4,9 +4,9 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
-        "build": "tsc",
         "start": "node dist/server.js",
         "dev": "ts-node-dev --transpile-only --ignore-watch node-modules src/server.ts",
+        "build": "tsc",
         "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
     },
     "dependencies": {
